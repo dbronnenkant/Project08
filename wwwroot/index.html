@@ -17,6 +17,17 @@
         <ui-view></ui-view>
 
     </div>
+    <div>
+        <nav>
+            <ul>
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="about">About</a></li>
+            <li><a ui-sref="inventory">Inventory</a></li>
+            <li><a ui-sref="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
 
     <!-- Library Files -->
     <script src="/libs/angular.min.js"></script>
@@ -27,8 +38,10 @@
     <script src="/libs/angular-ui-router.min.js"></script>
 
     <!-- controllers -->
+    <script src="/ngApp/controllers/contactController.js"></script>
+    <script src="/ngApp/controllers/aboutController.js"></script>
+    <script src="/ngApp/controllers/inventoryController.js"></script>
     <script src="/ngApp/controllers/mainController.js"></script>
-    
     <!-- services -->
     <script src="/ngApp/services/productService.js"></script>
 
