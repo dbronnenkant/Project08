@@ -1,5 +1,5 @@
 class ContactController {
     constructor() {
-        this.message = "hello from Contact";
+        this.message = "Slicing prices, contact us to hear more";
     }
 }
