@@ -2,4 +2,28 @@
 
 <p>{{ controller.message }}</p>
 
+<div>
+    <input ng-model="input" type="text" name="search" placeholder="Make...">
+</div>
+
+<br>
+
+<table class="table">
+    <tr>
+        <th>Year</th>
+        <th>Make</th>
+        <th>Model</th>
+    </tr>
+    <tr ng-repeat="car in controller.cars | filter : input">
+        <td>{{ car.year }}</td>
+        <td>{{ car.make }}</td>
+        <td>{{ car.model }}</td>
+    </tr>
+    <tr>
+        <td>No</td>
+        <td>matching</td>
+        <td>results</td>
+    </tr>
+</table>
+
 

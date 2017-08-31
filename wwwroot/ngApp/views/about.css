@@ -1,0 +1,31 @@
+p {
+    background-color: #C6C6C6;
+    color: #2A2A2A;
+    font-family: Century Gothic;
+    width: 600px;
+    padding: 25px;
+}
+
+h2 {
+    display: none;
+    background-color: #9F1313;
+    font-size: 14;
+    font-family: Tahoma;
+    width: 600px;
+    padding: 10px;
+    margin: -15px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+h3 {
+    background-color: #373737;
+    font-family: Tahoma;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    width: 600px;
+    padding: 10px;
+    color: white;
+}
+
